@@ -1,0 +1,44 @@
+.jumbotron,
+.favorite {
+  background-color: #ffe1b0;
+  padding-top: 4rem;
+}
+body {
+  margin: 0;
+}
+.col-3 {
+  padding-right: 2rem;
+}
+.gambar {
+  background-color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+}
+.gambar img {
+  padding: 20px 20px 10px 20px;
+}
+.gambar p {
+  padding: 0px 0px 10px 0px;
+}
+a {
+  text-decoration: none;
+}
+.overlay {
+  width: 287px;
+  height: 200px;
+  background-color: rgba(202, 201, 201, 0.596);
+  position: absolute;
+  overflow: hidden;
+  z-index: 99999;
+  opacity: 0;
+  transition: 0.3s;
+}
+span {
+  line-height: 200px;
+  font-weight: bold;
+  color: #333;
+  font-size: 28px;
+}
+.overlay:hover {
+  opacity: 1;
+}
